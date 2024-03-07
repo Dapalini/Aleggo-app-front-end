@@ -1,0 +1,90 @@
+.App {
+	background-color: white;
+}
+
+.Auth-form-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.Aleggo-container {
+	box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	border-radius: 8px;
+}
+
+.light-theme {
+	background-color: white;
+}
+
+.Auth-form {
+	width: 420px;
+	box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	border-radius: 8px;
+	background-color: white;
+}
+
+.Auth-form-content {
+	padding-left: 12%;
+	padding-right: 12%;
+}
+
+.Auth-form-title {
+	text-align: center;
+	margin-bottom: 1em;
+	font-size: 24px;
+	color: rgb(34, 34, 34);
+	font-weight: 800;
+}
+
+.DraggedItem-inactive {
+	max-height: 5000px;
+	transition: max-height 0.4s ease;
+}
+
+.DraggedItem-active {
+	max-height: 130px;
+	transition: max-height 0.4s ease;
+	cursor: move;
+}
+
+.DraggedItem-active-small {
+	max-height: 98px;
+	transition: max-height 0.4s ease;
+	cursor: move;
+}
+
+.Drop-zone {
+	height: 0px;
+	border-radius: 4px;
+	transition: height 0.2s ease, background-color 0.2s ease;
+}
+
+.Drop-zone-active {
+	background-color: rgba(105, 190, 255, 0.696);
+	height: 16px;
+	transition: height 0.2s ease, background-color 0.2s ease;
+}
+
+.Drop-zone-expanded {
+	background-color: rgba(49, 148, 224, 0.696);
+	height: 28px;
+	transition: height 0.2s ease, background-color 0.2s ease;
+}
+
+label {
+	font-size: 14px;
+	font-weight: 600;
+	color: rgb(34, 34, 34);
+}
+
+.Map-test {
+	width: 100%;
+	height: 100vh
+}
